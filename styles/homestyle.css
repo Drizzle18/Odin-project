@@ -284,7 +284,7 @@ ion-icon:hover{
     border-radius: 8px;
     border: thin solid grey;
     background-color: white;
-    color: black;
+ 
   }
   #flexbutton{
     display: flex;
@@ -651,4 +651,7 @@ left: -2rem;
 #icons{
   left: 2rem;
 }
+  #butt{
+    color: black;
+  } 
 }
