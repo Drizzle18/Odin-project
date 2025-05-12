@@ -1,0 +1,635 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Tangerine:wght@400;700&family=Underdog&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    
+     }
+  .logo{
+    width:20%;
+    display: flex;
+    gap: 1rem;
+    margin-left: -2%;
+  }
+  header {
+    background-color: white;
+    color: white;
+    display: flex;
+    gap: 10rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem;
+    text-align: center;
+  }
+  .navbar button:hover{
+    background-color:rgb(4, 15, 14);
+    color: white;
+    font-weight: 800;
+  }
+   .logo {
+    display: flex;
+    align-items: center;
+    gap:0;
+    width: 60vw;
+    font-size:13px;
+    font-weight: bold;
+    color: black;
+    margin-left:5px;
+  }
+  .logo h4{
+    margin-left: -2rem;
+    width: 14vw;
+    
+  }
+  
+  nav {
+    color: white;  }
+  
+  .navbar {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    margin-left: 5rem;
+  width: 70vw;
+  }
+  
+  .greenbut{
+    background-color: rgb(9, 94, 87);
+    font-size: 12px;
+    color: white;
+    padding: 15px 30px;
+    border-radius: 8px;
+    border: none;
+  }
+  .navbar li {
+    margin:0 0.5rem;
+  }
+
+  
+ion-icon{
+    font-size: 20px;
+    color:rgb(158, 149, 149);
+}
+ion-icon:hover{
+    font-size: 25px;
+    color:  rgb(2, 2, 2);
+}
+  
+  .navbar a {
+    
+    color: rgb(105, 99, 99);
+    text-decoration: none;
+    font-size: 14px;
+    transition: color 0.3s ease;
+  }
+  
+  .navbar a:hover {
+    padding-bottom: 8px;
+    border-bottom: 2px solid rgb(158, 149, 149);
+  }
+  
+  .careercon{
+    margin-top: 8%;
+    text-align: center;
+    font-size: 50px;
+    color: rgb(21, 29, 75) ;
+
+  }
+  .career{
+    color: rgb(151, 105, 20);
+  }
+
+  .ourfull{
+    
+    margin-top: 1%;
+    text-align: center;
+    font-size: 22px;
+    color: rgb(167, 162, 162);
+  }
+  .co{
+    display: flex;
+    flex-direction: column;
+    gap:0;
+    justify-content: center;
+  }
+ 
+  .view{
+    color: rgb(56, 51, 51);
+    width: 18%;
+    margin-top: 3%;
+    padding: 15px 30px;
+    font-size: 15px;
+    margin-left: 40%;
+    border: 1px solid rgb(203, 196, 196);
+    background-color: transparent;
+   border-radius: 8px;
+  }
+  .view:hover{
+    background-color: rgb(242, 237, 237);
+  }
+  .cover{
+    display: none;
+  }
+  .backimage{
+    width: 100vw;
+    height: 70vh;
+    background-image: url(../image/sippedpic.png);
+    background-size:cover;
+    background-position: cover;
+  }
+  section{
+    margin-top: 6rem;
+    display: flex;
+    gap: 2rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  section h3{
+    font-size: 35px;
+    color: rgb(20, 16, 32);
+  }
+  section p{
+    font-size: 20px;
+    font-weight: 100;
+    color: rgb(110, 103, 103);
+  }
+  .section1{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+
+  }
+  
+   .item span h1,  span p{
+    color: rgb(117, 114, 114);
+    font-size:18px;
+    line-height: 24px;
+  }
+  .item{
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    
+  }
+  
+  .section2{
+  color: rgb(116, 109, 109);
+    background-color: rgb(253, 249, 249);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: auto;
+    gap: 3rem;
+    height: 200vh;
+    margin-top: 2%;
+  }
+.coursescon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap:20px;
+  flex-wrap: wrap;
+}
+.coursescon .item{
+  background-color:white;
+  padding: 30px;
+  border-radius: 8px;
+}
+.coursescon .item:hover{
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+ .coursescon .item h2{
+  font-size: 18px;
+  text-align: center;
+  line-height: 25px;
+  color: rgb(78, 76, 76);
+ }
+ 
+
+ .Explore{
+  color: rgb(56, 51, 51);
+    width: 18%;
+    padding: 15px 30px;
+    font-size: 15px;
+    border: 1px solid rgb(203, 196, 196);
+    background-color: transparent;
+   border-radius: 8px;
+  }
+  .Explore:hover{
+    background-color: white;
+  }
+   
+  .success{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    background-color: whitesmoke;
+    height: 220vh;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+  }
+  .success h1{
+    padding-top: 40px;
+  }
+  .dis{
+    display: flex;
+    gap:2rem;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  }
+  .success img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  .success span{
+    line-height: 1.5rem;
+  }
+
+  .success h2{
+    color: rgb(96, 94, 94);
+    font-size: 19px;
+  }
+  .data{
+    height: 51vh;
+  }
+  .data img{
+    margin-top: -3rem;
+  }
+  .success h3{
+    font-size: 28px;
+    color: rgb(63, 61, 61);
+  }
+  .theodin{
+    text-align: center;
+    font-size: 14px;
+  }
+  #butt{
+    padding: 15px 35px;
+    border-radius: 8px;
+    border: thin solid grey;
+    background-color: white;
+  }
+  #flexbutton{
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+  .but{
+    padding: 15px 35px;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+  #flexbutton button:hover{
+    border: 3px solid rgb(10, 9, 7);
+  }
+  .but ion-icon{
+    color: white;
+    }
+    #icons{
+      width: 18vw;
+      margin-top: 2rem;
+      margin-left: 2rem;
+      gap:1.6rem;
+      display: flex;
+      justify-content: center;
+      
+    }
+    #icons ion-icon{
+      font-size: 28px;
+    }
+    footer{
+      padding: 30px;
+      font-size:12px;
+    }
+    .logo1{
+      
+      width: 20vw;
+      display: flex;
+      justify-content: center;
+      gap: 2rem;
+      margin-top: 3rem;
+      margin-left: 2rem;
+    }
+    .item1{
+      margin-top: 2rem;
+      margin: auto;
+      width: 95%;
+      height: 0.5px;
+      border-radius: 10px;
+      background-color: rgb(203, 192, 192);
+    }
+    #highh {
+      margin-left: 3rem;
+      padding:2px;
+     color: grey;
+    }
+    #head{
+      font-size: 15px;
+      font-weight: bold;
+    }
+    #items{
+      flex-wrap: wrap;
+      display: flex;
+      gap: 8rem;
+      margin-top: 4rem;
+      margin-left: -24rem;
+      margin-bottom: 4rem;
+      align-items:center;
+      justify-content: center;
+    }
+    .item{
+      line-height: 2rem;
+    }
+    .item ul li{
+      list-style: none;
+      color: grey ;
+    }
+    .b{
+      position: relative;
+      top:-0.7rem;
+    }
+    .c,.d{
+      position: relative;
+      top: -1.75rem;
+    }
+    #head li:hover{
+      color:rgb(174, 119, 18);
+    
+    }
+  @media screen and (max-width:768px) {
+    .navbar{
+      display: none;
+    }
+    .logo{
+      gap:0;
+      width: 200px;
+      font-size: 20px;
+      color: rgb(147, 101, 15);
+    }
+   .logo h4{
+    width: 45vw;
+    padding-left: -4px;
+   }
+   .first{
+    position: relative;
+    left: 1rem;
+   }
+   .b{
+    top: -1rem;
+    left: 3rem;
+   }
+  .d{
+    position: relative;
+    left: -9rem;
+    top: 1%;
+  }
+  .c{
+    position: relative;
+    top:9.3rem;
+    left: -3rem;
+  }
+.menu-icon {
+  width: 30px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  cursor: pointer;
+}
+
+.cover{
+  width: 50px;
+  height: 40px;
+  border: 2px solid grey;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.menu-icon .bar {
+  height: 4px;
+  width: 100%;
+  background-color: black;
+  border-radius: 2px;
+}
+header{
+  gap: 0.8rem;
+}
+
+.ourfull{
+  font-size: 20px;
+  margin-top: 5%;
+}
+.view{
+  width: 50%;
+  margin: auto;
+  position: relative;
+  top: 2rem;
+}
+.backimage{
+  width: auto;
+  height: 50vh;
+ background-position:10%;
+  background-size:cover;
+}
+section p{
+  font-size:15px;
+}
+.section1{
+  flex-wrap: wrap;
+  gap: 2.5rem;
+  margin-top: 5%;
+}
+
+#icons{
+  width: 60vw;
+  position: relative;
+  top: -1rem;
+  left: -2rem;
+  padding-left: -1.5rem;
+}
+.section2{
+  margin-top: 7%;
+}
+ #small{
+  margin-top: -2rem;
+  font-size: 16px;
+  text-align: center;
+}
+.item img{
+  width: 80px;
+  height: 80px;
+}
+.coursescon .item{
+  height: 30vh;
+  width:40vw;
+  
+  
+}
+.adcss{
+height: 29vh;
+width: 36vw;
+}
+.data{
+  height:10vh;
+}
+.coursescon .item{
+background-color:white;
+padding: 30px;
+border-radius: 8px;
+}
+.coursescon .item:hover{
+box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+.coursescon .item h2{
+line-height: 20px;
+}
+.data{
+height: 51vh;
+}
+.success{
+  height: 220vh;
+}
+
+.section2{
+  height: 240vh;
+}
+.Explore{
+  width: 50vw;
+  margin-top: 4%;
+}
+.success h1{
+  margin-top: -3rem;
+}
+
+.logo1{
+  gap: 3rem;
+}
+
+#highh{
+  margin-left: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: rgb(200, 139, 25);
+  padding: 5px;
+  font-size:15px;
+  font-weight: bolder;
+  width: 80vw;
+}
+#items{
+  
+  margin: auto;
+  gap: 20px;
+}
+}
+
+@media screen and (min-width:669px) and (max-width:1023px) {
+
+  .cover{
+    display: none;
+  }
+  header {
+    background-color: white;
+    color: white;
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 2rem;
+    text-align: center;
+  }
+  .navbar button:hover{
+    background-color:rgb(4, 15, 14);
+    color: white;
+    font-weight: 400;
+  }
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0;
+    font-size:10px;
+    font-weight: bold;
+    color: black;
+  }
+  nav {
+    color: white;  }
+  
+  .navbar {
+    display: flex;
+    gap: 25px;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+  }
+  
+  .greenbut{
+    background-color: rgb(9, 94, 87);
+    color: white;
+    padding: 10px 28px;
+    border-radius: 8px;
+    border: none;
+    font-size: 12px;
+  }
+  .navbar li {
+    margin:0 0;
+  }
+  .navbar a{
+    font-size: 13px;
+  }
+  .section1{
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  .Explore{
+    padding: 14px;
+   width: 25vw;
+    font-size: 15px;
+   }
+  .logo1{
+    gap: 2rem;
+    font-size: 15px;
+  }
+  #icons{
+    position: relative;
+    left: 1rem;
+  }
+  #closefooter{
+    height: 100vh;
+  }
+
+  .first{
+    position: relative;
+    left: 9.5rem;
+  }
+  .b{
+    left: 15rem;
+  }
+  .c{
+    left: 18rem;
+  }
+  .d{
+    top: 11rem;
+    left: -35.5rem;
+  }
+}
