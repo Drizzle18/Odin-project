@@ -633,3 +633,21 @@ height: 51vh;
     left: -35.5rem;
   }
 }
+@media screen and (max-width:760px) {
+.first{
+left: -2rem;
+}  
+.b{
+  left: -0.2rem;
+}
+.c{
+  top: -0.1rem;
+  left: 8rem;
+}
+.d{
+  left: -12rem;
+}
+#icons{
+  left: 2rem;
+}
+}
